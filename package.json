@@ -1,0 +1,22 @@
+{
+  "name": "yeapoo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "*",
+    "connect-livereload": "*",
+    "grunt-contrib-less": "*",
+    "grunt-spritesmith": "*",
+    "grunt-tasks": "*"
+  }
+}
