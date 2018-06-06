@@ -4,6 +4,7 @@
  */
 body {
   padding: 0;
+  margin: 0;
 }
 em,
 i,
@@ -67,6 +68,22 @@ h6 {
 }
 .fl {
   float: left !important;
+}
+.fc:before,
+.fc:after {
+  content: " ";
+  display: table;
+}
+.fc:after {
+  clear: both;
+}
+.fc:before,
+.fc:after {
+  content: " ";
+  display: table;
+}
+.fc:after {
+  clear: both;
 }
 .mw {
   max-width: 270px;
@@ -225,6 +242,17 @@ h6 {
 }
 .f-b {
   display: block !important;
+}
+.f-c:before,
+.clearfix:before,
+.f-c:after,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.f-c:after,
+.clearfix:after {
+  clear: both;
 }
 .f-of {
   overflow: hidden;
@@ -469,6 +497,22 @@ a.t-muted:hover {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+[class*="avg-"]:before,
+[class*="avg-"]:after {
+  content: " ";
+  display: table;
+}
+[class*="avg-"]:after {
+  clear: both;
+}
+[class*="avg-"]:before,
+[class*="avg-"]:after {
+  content: " ";
+  display: table;
+}
+[class*="avg-"]:after {
+  clear: both;
 }
 [class*="avg-"] > li {
   display: block;
